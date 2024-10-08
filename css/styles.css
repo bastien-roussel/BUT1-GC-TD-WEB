@@ -18,7 +18,7 @@ body{
     margin: 0;
 }
 
-.ma-liste{
+.ma-liste{ 
     list-style-type: none;
 }
 
@@ -33,4 +33,17 @@ body{
 .mes-liens{
     text-decoration: inherit;
     color: inherit;
+}
+
+
+/* EXO 3 */
+.mon-magnifique-btn{
+    border-radius: 2em;
+    background-color: rgb(164, 255, 164);
+    padding: 1.3em;
+}
+
+.mon-magnifique-btn:hover{
+    background-color: #3e3e3e;
+    color: white;
 }
