@@ -77,6 +77,10 @@ h2, h3{
     width: 50em;
     height: 20em;
     background-color: blue;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .flex-div1,
@@ -85,4 +89,20 @@ h2, h3{
     width: 10em;
     height: 10em;
     background-color: green;
+}
+
+.flex-div1{
+    display: flex;
+    align-items: end;
+}
+
+.flex-div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-div3 {
+    display: flex;
+    justify-content: end;
 }
