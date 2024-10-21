@@ -106,3 +106,24 @@ h2, h3{
     display: flex;
     justify-content: end;
 }
+
+
+
+/* exo bootstrap */
+
+.mon-btn-perso{
+    color: red;
+    background-color: yellow;
+}
+
+.mon-btn-perso:hover{
+    color: red;
+    background-color: grey;
+}
+
+.col-perso-1{
+    background-color: yellow;
+}
+.col-perso-2{
+    background-color: grey;
+}
