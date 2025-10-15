@@ -29,3 +29,18 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+/* EXO 3 */
+
+.mon-btn{
+    border-radius: 3em;
+    background-color: rgb(171, 255, 171);
+    padding: 1.5em;
+}
+
+.mon-btn:hover{
+    background-color: #535353;
+    color: white;
+    cursor: pointer;
+    /* padding: 5em; */
+}
