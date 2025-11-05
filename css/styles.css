@@ -69,3 +69,41 @@ h1, h2, h3{
     font-style: italic;
     font-size: small;
 }
+
+
+
+/* exo 5 */
+.flex-div-parent{
+    width: 50em;
+    height: 20em;
+    background-color: blue;
+
+    /* FLEX */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-div-1,
+.flex-div-2,
+.flex-div-3{
+    width: 10em;
+    height: 10em;
+    background-color: green;
+}
+
+.flex-div-1{
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-div-3{
+    display: flex;
+    justify-content: flex-end;
+}
