@@ -2,8 +2,30 @@
     color: blue;
     font-weight: bold;
     text-align: center;
+    margin: 0; /*Exo 2 */
 }
 
 .mon-header{
     background-color: #d2d2d2;
+    padding: 30px; /* EXO 2 */
+}
+
+/* exo 2 */
+body{
+    margin: 0;
+}
+
+.ma-liste{
+    list-style-type: none;
+}
+
+.mes-items{
+    display: inline;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.mes-items a{
+    text-decoration: none;
+    color: black
 }
