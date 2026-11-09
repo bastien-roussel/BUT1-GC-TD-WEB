@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "ROBOTO" ;
+    src: url("../assets/ROBOTO/Roboto_Condensed-Regular.ttf");
+}
+
 #mon-titre{
     color: blue;
     font-weight: bold;
@@ -41,4 +46,20 @@ body{
     background-color: #535252;
     color: white;
     cursor: pointer;
+}
+
+/* exo 4 */
+.mes-articles{
+    margin: 4em 3em;
+    border: dashed black 5px;
+    padding: 2em;
+}
+
+.auteur{
+    font-size: 0.85em;
+    font-style: italic;
+}
+
+h2, h3{
+    font-family: 'ROBOTO', Verdana, sans-serif;
 }
